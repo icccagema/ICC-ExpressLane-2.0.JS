@@ -7,4 +7,4 @@ module.exports = class {
     constructor(obj) {
         obj && Object.assign(this, obj);
     }
-}
+};

@@ -1,80 +1,80 @@
 module.exports = class {
-/** @type {string} */
+    /** @type {string} */
     JobNbr;
 
-/** @type {string} */
+    /** @type {string} */
     QuoteNbr;
 
-/** @type {string} */
+    /** @type {string} */
     OppNbr;
 
-/** @type {string} */
+    /** @type {string} */
     OrderNbrName;
 
-/** @type {string} */
+    /** @type {string} */
     OrderNbr;
 
-/** @type {string} */
+    /** @type {string} */
     LineNbr;
 
-/** @type {string} */
+    /** @type {string} */
     CustomerNbr;
 
-/** @type {string} */
+    /** @type {string} */
     Account;
 
-/** @type {string} */
+    /** @type {string} */
     ShipTo;
 
-/** @type {string} */
+    /** @type {string} */
     OrderDate;
 
-/** @type {string} */
+    /** @type {string} */
     ShipByDate;
 
-/** @type {string} */
+    /** @type {string} */
     OnSiteDate;
 
-/** @type {string} */
+    /** @type {string} */
     ICC_Install;
 
-/** @type {string} */
+    /** @type {string} */
     Eng;
 
-/** @type {string} */
+    /** @type {string} */
     EngFulName;
 
-/** @type {string} */
+    /** @type {string} */
     FrmFin;
 
-/** @type {string} */
+    /** @type {string} */
     PedFin;
 
-/** @type {string} */
+    /** @type {string} */
     TblLegFin;
 
-/** @type {string} */
+    /** @type {string} */
     TblBaseFin;
 
-/** @type {string} */
+    /** @type {string} */
     TblSlimLegFin;
 
-/** @type {string} */
+    /** @type {string} */
     WksLam;
 
-/** @type {string} */
+    /** @type {string} */
     WksLamDescr;
 
-/** @type {string} */
+    /** @type {string} */
     'WS-edge';
 
-/** @type {string} */
+    /** @type {string} */
     WksEdgeDescr;
 
-/** @type {string} */
+    /** @type {string} */
     MelPnl;
 
-/** @type {string} */
+    /** @type {string} */
     MelPnlDescr;
 
     /** @type {string} */

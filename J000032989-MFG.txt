@@ -1,0 +1,78 @@
+PartNo|Qty|Type|SubType|Description|Depth|Width|Height|UserTag|Option01|Option02|Option03|Option04|Option05|Option06|Option07|Option08|Option09|Assembled|TileIndicator
+
+A063006-F1|1|||Assembled partition frame|11|60|27|1|1|A063006|||||||||||
+23330|1|Matl||Doorstop .5x .81x 79.87|1|1|24|1|1|A063006|PL|||||||||A063006-F1|
+23330|1|Matl||Doorstop .5x .81x 79.87|1|1|58|1|1|A063006|PL|||||||||A063006-F1|
+30054|2|Acc|Misc|Magnetic Catch for Valet Doors||1|1|1|1|A063006||||||||||A063006-F1|
+30061|2|Matl||Hinge for Valet doors||1|23|1|1|A063006||||||||||A063006-F1|
+30085|1|Acc|Misc|Lock Assy for Valet Doors||1|1|1|1|A063006||||||||||A063006-F1|
+GeneralTubing|2|Tub|Tub|IC Frame Tube,Length:25  CS1 ||25||1|1|A063006|PL|||||||||A063006-F1|
+GeneralTubing|2|Tub|Tub|IC Frame Tube,Length:59 S1||59||1|1|A063006|PL|||||||||A063006-F1|
+Handle|2|Acc|Misc|Handle Door Pull Us26 4 inch Sl||1.33|4.31|1|1|A063006||||||||||A063006-F1|
+J103CS|2|Jnt|Connector|Connector J103C w/Sleeve||||1|1|A063006|PL|||||||||A063006-F1|
+J103CSDT|2|Jnt|Connector|Connector J103C w/Sleeve D&T||||1|1|A063006|PL|||||||||A063006-F1|
+
+A063006-F2|1|||Assembled partition frame|11|60|27|1|1|A063006|||||||||||
+GeneralTubing|2|Tub|Tub|IC Frame Tube,Length:25  CS1 ||25||1|1|A063006|PL|||||||||A063006-F2|
+GeneralTubing|2|Tub|Tub|IC Frame Tube,Length:59 S1||59||1|1|A063006|PL|||||||||A063006-F2|
+J103CS|2|Jnt|Connector|Connector J103C w/Sleeve||||1|1|A063006|PL|||||||||A063006-F2|
+J103CSDT|2|Jnt|Connector|Connector J103C w/Sleeve D&T||||1|1|A063006|PL|||||||||A063006-F2|
+Pmold75|2|Pmd|Pmd|Panel Molding .75,Length:25 ||25||1|1|A063006|PL|||||||||A063006-F2|
+Pmold75|2|Pmd|Pmd|Panel Molding .75,Length:59 ||59||1|1|A063006|PL|||||||||A063006-F2|
+
+25294|24|Acc|Misc|Slot Tab Regular||||1|1|A063006|PL||||||||||
+38375|24|Acc|Misc|Fas Screw 10 x 5/8 PN Part Bd Black||||1|1|A063006|PL||||||||||
+CCL|2|Acc|Worksurface|Corner Clip LH for support||||1|1|A063006|PL||||||||||
+CCR|2|Acc|Worksurface|Corner Clip RH for support||||1|1|A063006|PL||||||||||
+DM2460|1|Wks|Deck|Melamine Deck 24d x60w x0.75t - Real Size: 20.0dX59.0w|20|59|0.75|1|1|A063006|35145|PL|||||||||A063006-
+GeneralTubing|4|Tub|Tub|IC Frame Tube,Length:20 S1||20||1|1|A063006|PL||||||||||
+HG|2|Acc|Misc|Hole Grommet|1|3|1|1|1|A063006|PL||||||||||
+HardboardTileP2|1|Til|Tile|Hardboard Tile Position 2 STD#29|2|58.5|24.5|1|1|A063006|35145|35145|||||||||*A063006-D
+HardboardTileP2|2|Til|Tile|Hardboard Tile Position 2|2|19.5|24.5|1|1|A063006|35145|35145|||||||||A063006-A
+PC|2|Acc|Misc|Panel Cutout w/grommet 3in Dia||||1|1|A063006|PL||||||||||
+Pmold75|4|Pmd|Pmd|Panel Molding .75,Length:25 ||25||1|1|A063006|PL||||||||||
+Pmold75|4|Pmd|Pmd|Panel Molding .75,Length:20 ||20||1|1|A063006|PL||||||||||
+ValetdoorLHTile|1|Til|Tile|Valetdoor LH Tile|2|29.5|25|1|1|A063006|35145|PL|||||||||*A063006-B
+ValetdoorRHTile|1|Til|Tile|Valetdoor RH Tile|2|29.5|25|1|1|A063006|35145|PL|||||||||*A063006-C
+WDR2460|1|Wks|WDR|A063006-WKS Shelf Rectangular 20d x 59w|20|59|1.25|1|1|A063006|49164P-0512GP|70055PL|||||||||
+WDR2466|1|Wks|WDR|A063006-WKS Rectangular 24d x 63w|24|63|1.25|1|1|A063006|49164P-0512GP|70055PL|||||||||
+
+HaPDM18BBF|1|Ped|Mobile Pedestal|Ped Mobile 18d b/b/f w/Acc Pack|18|15.25|26.88|1|1|A063018|PL||BK||||||||
+
+A063020-F1|1|||Assembled partition frame|11|35|42|1|1|A063020|||||||||||
+GeneralTubing|1|Tub|Tub|IC Frame Tube,Length:34 S1 STD#652||34||1|1|A063020|PL|||||||||A063020-F1|
+GeneralTubing|1|Tub|Tub|IC Frame Tube,Length:34 S1||34||1|1|A063020|PL|||||||||A063020-F1|
+GeneralTubing|2|Tub|Tub|IC Frame Tube,Length:40  CS1 ||40||1|1|A063020|PL|||||||||A063020-F1|
+J103CS|2|Jnt|Connector|Connector J103C w/Sleeve||||1|1|A063020|PL|||||||||A063020-F1|
+J103CSDT516|2|Jnt|Connector|Connector J103C w/Sleeve D&T||||1|1|A063020|PL|||||||||A063020-F1|
+Pmold75|2|Pmd|Pmd|Panel Molding .75,Length:34 ||34||1|1|A063020|PL|||||||||A063020-F1|
+Pmold75|2|Pmd|Pmd|Panel Molding .75,Length:40 ||40||1|1|A063020|PL|||||||||A063020-F1|
+
+A063020-F2|1|||Assembled partition frame|11|35|42|1|1|A063020|||||||||||
+23330|1|Matl||Doorstop .5x .81x 79.87|1|1|39|1|1|A063020|PL|||||||||A063020-F2|
+23330|1|Matl||Doorstop .5x .81x 79.87|1|1|33|1|1|A063020|PL|||||||||A063020-F2|
+30054|2|Acc|Misc|Magnetic Catch for Valet Doors||1|1|1|1|A063020||||||||||A063020-F2|
+30061|2|Matl||Hinge for Valet doors||1|38|1|1|A063020||||||||||A063020-F2|
+30085|1|Acc|Misc|Lock Assy for Valet Doors||1|1|1|1|A063020||||||||||A063020-F2|
+GeneralTubing|2|Tub|Tub|IC Frame Tube,Length:40  CS1 ||40||1|1|A063020|PL|||||||||A063020-F2|
+GeneralTubing|1|Tub|Tub|IC Frame Tube,Length:34 S1 STD#652||34||1|1|A063020|PL|||||||||A063020-F2|
+GeneralTubing|1|Tub|Tub|IC Frame Tube,Length:34 S1||34||1|1|A063020|PL|||||||||A063020-F2|
+Handle|2|Acc|Misc|Handle Door Pull Us26 4 inch Sl||1.33|4.31|1|1|A063020||||||||||A063020-F2|
+J103CS|2|Jnt|Connector|Connector J103C w/Sleeve||||1|1|A063020|PL|||||||||A063020-F2|
+J103CSDT516|2|Jnt|Connector|Connector J103C w/Sleeve D&T||||1|1|A063020|PL|||||||||A063020-F2|
+
+25294|20|Acc|Misc|Slot Tab Regular||||1|1|A063020|||||||||||
+38375|20|Acc|Fastener|Fas Screw 10 x 5/8 PN Part Bd Black||||1|1|A063020|PL||||||||||
+CCL|4|Acc|Worksurface|Corner Clip LH for support|1|1|1|1|1|A063020|PL||||||||||
+CCR|4|Acc|Worksurface|Corner Clip RH for support|1|1|1|1|1|A063020|PL||||||||||
+Caster5L|4|Acc|Misc|Caster 5in  Lock HD|5|5|5.38|1|1|A063020|SL||||||||||
+DM2436|2|Wks|Deck|Melamine Deck 24d x36w x0.75t - Real Size: 22.0dX34.0w|22|34|0.75|1|1|A063020|35145|PL|||||||||A063020-
+GeneralTubing|2|Tub|Tub|IC Frame Tube,Length:22 S1 STD#651||22||1|1|A063020|PL||||||||||
+GeneralTubing|2|Tub|Tub|IC Frame Tube,Length:22 S1||22||1|1|A063020|PL||||||||||
+HardboardTileP2|1|Til|Tile|Hardboard Tile Position 2|2|33.5|39.5|1|1|A063020|35145|35145|||||||||A063020-B
+HardboardTileP2|2|Til|Tile|Hardboard Tile Position 2|2|21.5|39.5|1|1|A063020|35145|35145|||||||||A063020-A
+Pmold75|4|Pmd|Pmd|Panel Molding .75,Length:40 ||40||1|1|A063020|PL||||||||||
+Pmold75|4|Pmd|Pmd|Panel Molding .75,Length:22 ||22||1|1|A063020|PL||||||||||
+SM2436|2|Wks|Shelf|Melamine Shelf 24d x36w x0.75t - Real Size: 22.0dX34.0w|22|34|0.75|1|1|A063020|35145|PL|||||||||A063020-
+ValetdoorLHTile|1|Til|Tile|Valetdoor LH Tile|2|17|40|1|1|A063020|35145|PL|||||||||*A063020-C
+ValetdoorRHTile|1|Til|Tile|Valetdoor RH Tile|2|17|40|1|1|A063020|35145|PL|||||||||*A063020-D
