@@ -13,6 +13,7 @@
     const MfgHandler   = require('./lib/MfgHandler.js');
 
     var start = Date.now();
+    ItemCatalog.LoadTranslationData();
     if (fs.existsSync('./cached-catalog.json')) {
         ItemCatalog.CatalogDict = require('./cached-catalog.json');
         ItemCatalog.Catalog = [... Object.values(ItemCatalog.CatalogDict)];
@@ -23,7 +24,7 @@
     console.log(`${Date.now() - start}ms`);
 
     start = Date.now();
-    await CrmOrders.LoadData('J000032989');
+    await CrmOrders.LoadData('J000033007');
     console.log(`${Date.now() - start}ms`);
 
     start = Date.now();

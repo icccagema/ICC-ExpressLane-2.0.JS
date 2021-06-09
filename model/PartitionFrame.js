@@ -14,8 +14,10 @@ class ProductFrameCollection {
      * @param {MFGItem[]} shiploose 
      */
     constructor(partitionFrames = [], shiploose = []) {
-        partitionFrames.forEach(v => this.PartitionFrames.push(v));
-        shiploose.forEach(v => this.ShipLooseItems.push(v));
+        partitionFrames.forEach(v =>
+            this.PartitionFrames.push(v));
+        shiploose.forEach(v =>
+            this.ShipLooseItems.push(v));
     }
 
     /**
@@ -25,9 +27,20 @@ class ProductFrameCollection {
     toString() {
         var text =
             [
-                this.PartitionFrames.map(p => p.toString()).join('\n\n').trim(),
-                this.ShipLooseItems.sort((a,b) => a.PartNo > b.PartNo ? 1 : -1).map(m => m.toString()).join('\n').trim()
+                this.PartitionFrames.
+                    map(p =>
+                        p.toString()).
+                    join('\n\n').
+                    trim(),
+                this.ShipLooseItems.
+                    sort((a,b) =>
+                        a.PartNo > b.PartNo ? 1 : -1).
+                    map(m =>
+                        m.toString()).
+                    join('\n').
+                    trim()
             ].join('\n\n');
+            
         return text;
     } 
 }
@@ -54,7 +67,13 @@ class PartitionFrame {
         var text =
             [
                 this.PartitionFrameMfgLine,
-                this.AssembledItems.sort((a,b) => a.PartNo > b.PartNo ? 1 : -1).map(mfgi => mfgi.toString()).join('\n').trim()
+                this.AssembledItems.
+                    sort((a,b) =>
+                        a.PartNo > b.PartNo ? 1 : -1).
+                    map(mfgi =>
+                        mfgi.toString()).
+                    join('\n').
+                    trim()
             ].join('\n');
         return text;
     } 
@@ -173,11 +192,24 @@ class MFGItem {
      */
     constructor(mfgline) {
         var splitLine = mfgline.split('|');
-        if (mfgline.split('').filter(char => char == '|').length != 21)
-            return;
         Object.keys(MFGHeaderMap).forEach(hKey => {
             var hVal = MFGHeaderMap[hKey];
-            this[hKey] = (hKey != 'UserTag' ? (MFGHeaderTypes[hKey] == Number ? parseFloat(splitLine[hVal]) || '' : splitLine[hVal]) : new UserTag(MFGHeaderMap[hKey].map(v => splitLine[v])));
+            if  (hKey != 'UserTag') {
+                var valType = MFGHeaderTypes[hKey];;
+                var value = splitLine[hVal];
+                this[hKey] = (
+                        valType == Number ?
+                        (parseFloat(value) || '') :
+                        value
+                    );
+            } else {
+                this[hKey] =
+                    new UserTag(
+                        MFGHeaderMap[hKey].map(v =>
+                            splitLine[v]
+                        )
+                    );
+            }
         });
     }
 
@@ -186,7 +218,9 @@ class MFGItem {
      * @returns MFG String
      */
     toString() {
-        return Object.keys(MFGHeaderMap).map(k => (k == 'UserTag' ? this[k].toString() : this[k])).join('|');
+        return Object.keys(MFGHeaderMap).map(k =>
+                this[k].toString()
+            ).join('|');
     }
 }
 
