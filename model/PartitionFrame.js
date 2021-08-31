@@ -2,6 +2,9 @@ class ProductFrameCollection {
     /** @type {string} */
     ProductCode;
 
+    /** @type {number} */
+    ProductQty
+
     /** @type {PartitionFrame[]} */
     PartitionFrames = [];
 
@@ -18,6 +21,7 @@ class ProductFrameCollection {
             this.PartitionFrames.push(v));
         shiploose.forEach(v =>
             this.ShipLooseItems.push(v));
+        this.ProductQty = 0;
     }
 
     /**
@@ -199,7 +203,7 @@ class MFGItem {
                 var value = splitLine[hVal];
                 this[hKey] = (
                         valType == Number ?
-                        (parseFloat(value) || '') :
+                        ( value.includes('[') ? 1 : (parseFloat(value) || '') ) :
                         value
                     );
             } else {
@@ -241,7 +245,7 @@ class UserTag {
         if (!stringArr || stringArr.length == 0)
             return;
         this.Area = parseInt(stringArr[0]);
-        this.Multi = parseInt(stringArr[1]);
+        this.Multi = (!stringArr[1].includes('[') ? parseInt(stringArr[1]) : stringArr[1]);
         this.JobNum = stringArr[2];
     }
     
