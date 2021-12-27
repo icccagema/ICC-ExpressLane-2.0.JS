@@ -1,7 +1,6 @@
 /**
  * @author CameronWA, ICC
- * @summary Handles the process of stamping each group of paperwork from the Section 3-8 with the jobs tag
- * 			color, instead of it being done manually after it's all been printed.
+ * @summary 
  */
 (async function() {
     const fs             = require('fs');
@@ -24,10 +23,12 @@
     console.log(`${Date.now() - start}ms`);
 
     start = Date.now();
-    await CrmOrders.LoadData('J000033334');
+    await CrmOrders.LoadData('J000033324');
     console.log(`${Date.now() - start}ms`);
+    //console.log(CrmOrders.Info);
 
     start = Date.now();
+    PackageHandler.ProductCollection = [];
     PackageHandler.ProcessPackages(
         CrmOrders.ItemLines.filter(o =>
             ItemCatalog.Catalog.filter(ic =>
@@ -38,6 +39,8 @@
         CrmOrders.Info
     );
     console.log(`${Date.now() - start}ms`);
+
+    PackageHandler.ProductCollection.forEach(pc => pc.ShipLooseItems.forEach(sli => Object.keys(sli).filter(k => k.startsWith('Option')).map(k => sli[k]).filter(v => v.toString().toLowerCase() == 'NA').forEach(k => console.log(k + ' ' + sli[k]))));
 
     start = Date.now();
     MfgHandler.ExportMFG(

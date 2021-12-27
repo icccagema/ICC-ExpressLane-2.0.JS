@@ -1,3 +1,4 @@
+const { EOL } = require('os');
 class ProductFrameCollection {
     /** @type {string} */
     ProductCode;
@@ -34,16 +35,16 @@ class ProductFrameCollection {
                 this.PartitionFrames.
                     map(p =>
                         p.toString()).
-                    join('\n\n').
+                    join(EOL).
                     trim(),
                 this.ShipLooseItems.
                     sort((a,b) =>
                         a.PartNo > b.PartNo ? 1 : -1).
                     map(m =>
                         m.toString()).
-                    join('\n').
+                    join(EOL).
                     trim()
-            ].join('\n\n');
+            ].join(EOL);
             
         return text;
     } 
@@ -76,9 +77,9 @@ class PartitionFrame {
                         a.PartNo > b.PartNo ? 1 : -1).
                     map(mfgi =>
                         mfgi.toString()).
-                    join('\n').
+                    join(EOL).
                     trim()
-            ].join('\n');
+            ].join(EOL);
         return text;
     } 
 }
