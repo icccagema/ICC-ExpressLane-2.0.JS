@@ -1,5 +1,6 @@
 const { EOL } = require('os');
 class ProductFrameCollection {
+
     /** @type {string} */
     ProductCode;
 
