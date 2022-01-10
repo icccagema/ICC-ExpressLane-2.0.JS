@@ -11,6 +11,7 @@
     const PartitionFrame = require('./model/PartitionFrame.js');
     const MfgHandler     = require('./lib/MfgHandler.js');
 
+    // Item catalog stuff
     var start = Date.now();
     ItemCatalog.LoadTranslationData();
     if (fs.existsSync('./cached-catalog.json')) {
@@ -22,8 +23,11 @@
     }
     console.log(`${Date.now() - start}ms`);
 
+    const args = process.argv.slice(2) || [];
+    const orderNum = args[0] || 'S000008071';
+
     start = Date.now();
-    await CrmOrders.LoadData('S000008071');
+    await CrmOrders.LoadData(orderNum);
     console.log(`${Date.now() - start}ms`);
     //console.log(CrmOrders.Info);
 
