@@ -13,6 +13,9 @@ class ProductFrameCollection {
     /** @type {MFGItem[]} */
     ShipLooseItems = [];
 
+    /** @type {string} */
+    PackagePath = '';
+
     /**
      * 
      * @param {PartitionFrame[]} partitionFrames 
@@ -48,7 +51,11 @@ class ProductFrameCollection {
             ].join(EOL);
             
         return text;
-    } 
+    }
+
+    PdfDrawings() {
+
+    }
 }
 
 class PartitionFrame {

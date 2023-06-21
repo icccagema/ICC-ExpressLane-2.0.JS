@@ -44,13 +44,25 @@
     );
     console.log(`${Date.now() - start}ms`);
 
-    PackageHandler.ProductCollection.forEach(pc => pc.ShipLooseItems.forEach(sli => Object.keys(sli).filter(k => k.startsWith('Option')).map(k => sli[k]).filter(v => v.toString().toLowerCase() == 'NA').forEach(k => console.log(k + ' ' + sli[k]))));
+    PackageHandler.ProductCollection.forEach(pc =>
+        pc.ShipLooseItems.forEach(sli =>
+            Object.keys(sli).
+                filter(k => k.startsWith('Option')).
+                map(k => sli[k]).
+                filter(v => v.toString().toLowerCase() == 'NA').
+                forEach(k =>
+                    console.log(k + ' ' + sli[k])
+                )
+            )
+        );
 
     start = Date.now();
-    MfgHandler.ExportMFG(
-        MfgHandler.FrameCollectionsToMFG(PackageHandler.ProductCollection),
-        CrmOrders.JobNbr
-    );
+    //console.log(PackageHandler.ProductCollection)
+    if (PackageHandler.ProductCollection.length != 0)
+        MfgHandler.ExportMFG(
+            MfgHandler.FrameCollectionsToMFG(PackageHandler.ProductCollection),
+            CrmOrders.JobNbr
+        );
     console.log(`${Date.now() - start}ms`);
 
     //var collectionJson = JSON.stringify(PackageHandler.ProductCollection, null, 2);
